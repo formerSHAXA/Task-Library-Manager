@@ -1,0 +1,108 @@
+📚 Task & Library Manager (Python CLI App)
+
+A simple yet functional Command-Line Application built with pure Python that allows you to:
+
+✔ Manage a personal Library (Books)
+✔ Manage Tasks / To-Dos
+✔ Automatically save & load all data using JSON files
+✔ Practice OOP, classes, menus, loops, file handling, and clean code
+
+This project is ideal for learning Python basics → intermediate skills.
+
+🚀 Features
+📘 Book Management
+
+Add new books
+
+View all books
+
+Search books by title
+
+Update book status (Read / Unread)
+
+Remove books
+
+Everything saved in books.json
+
+📝 Task Management
+
+Add tasks with:
+
+title
+
+description
+
+priority (Low / Medium / High)
+
+due date
+
+Mark tasks as Done / Not Done
+
+Remove tasks
+
+Everything saved in tasks.json
+
+📊 Statistics
+
+Total books
+
+Completed vs. pending tasks
+
+Read vs. unread books
+
+📂 Project Structure
+project/
+│
+├── main.py
+├── books.json
+└── tasks.json
+
+🛠️ Requirements
+
+This project uses only built-in Python libraries.
+No installation needed.
+
+Just run:
+
+python3 main.py
+
+🧠 Concepts Used
+
+This project includes and helps you practice:
+
+Object-Oriented Programming
+
+Classes & objects
+
+Methods
+
+__str__
+
+JSON file handling
+
+save / load
+
+Functions & modular code
+
+Clean menu loops
+
+Error handling
+
+Separation of concerns (logic vs display)
+
+🧪 How to Use
+
+Run the app:
+
+python main.py
+
+
+Main Menu options:
+
+1. Manage Books
+2. Manage Tasks
+3. Statistics
+4. Exit
+
+
+Each submenu will guide you through all actions.
